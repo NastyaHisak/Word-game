@@ -8,7 +8,7 @@
 }
 .timer{
     font-size: 38px;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 .theme{
     text-align: start;
@@ -21,13 +21,13 @@
 .theme-btn{
     font-size: 20px;
     padding: 10px 15px;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
     border-radius: 10px;
     color: white;
+    width: 225px;
 }
 #select-button{
     color: black;
-    max-width: 225px;
     border: 3px solid #eeb55c;
 }
 #generate-button{
@@ -37,13 +37,14 @@
     background: #ee720f;
 }
 .start{
-    padding: 15px 30px;
-    font-size: 32px;
+    font-size: 25px;
     font-family: Arial, sans-serif;
     border: 3px solid darkcyan;
     background: darkcyan;
     color: white;
-    border-radius: 20px;
+    border-radius: 15px;
+    width: 225px;
+    height: 42px;
 }
 .start-hidden{
     display: none;
@@ -52,7 +53,7 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 16px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .word{
     padding: 15px;
@@ -77,8 +78,7 @@
     }
     .container{
         grid-template-columns: repeat(4, 1fr);
-        gap: 12px;
-
+        gap: 8px 12px;
     }
     .word{
         padding: 8px;
