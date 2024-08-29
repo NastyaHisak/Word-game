@@ -5,7 +5,7 @@ start.addEventListener("click", () => {
     start.classList.add('start-hidden');
     reStart.classList.remove('start-hidden');
     const timerElement = document.getElementById('timer');
-    let seconds = 60;
+    let seconds = 90;
     let interval = setInterval(function () {
         seconds--;
         timerElement.innerText = seconds;
@@ -41,9 +41,9 @@ function clickWord() {
 
 
 //
-const themes = ["Города Беларуси", "Город мира", "Реки", "Озера", "Страны",
+const themes = ["Города", "Реки", "Страны",
     "Футбольные клубы", "Марки машин", "Одежда", "Бренды", "Фрукты и овощи",
-    "Марки еды", "Породы собак/котов", "Животные", "Профессии", "Актёры", "Певцы"];
+    "Бренды еды", "Породы собак/котов", "Животные", "Профессии", "Знаменитости", "Спортсмены", "Виды спорта"];
 
 
 // Генератор рандомных слов
