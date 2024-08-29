@@ -13,9 +13,9 @@
 <div class="wrapper">
 
     <div class="theme">
-        <h1 class="theme-title">Случайная тема: <span id="random-word"></span></h1>
+        <div class="theme-title" id="random-word">Сгенерируйте тему</div>
         <button class="theme-btn" id="generate-button">Сгенерировать тему</button>
-<!--        <button class="theme-btn" id="replace-button">Заменить тему</button>-->
+        <select class="theme-btn" name="theme" id="select-button"></select>
     </div>
 
     <div class="timer" id="timer">
@@ -52,6 +52,7 @@
         <div class="word">Я</div>
     </div>
     <button class="start" id="start">Start game!</button>
+    <button class="start start-hidden" id="re-start">Restart</button>
 </div>
 
 <script src="js/main.js"></script>

@@ -7,7 +7,7 @@
     align-items: center;
 }
 .timer{
-    font-size: 46px;
+    font-size: 38px;
     margin-bottom: 20px;
 }
 .theme{
@@ -15,14 +15,20 @@
 }
 .theme-title{
     font-size: 20px;
-}
-.theme-title span{
     font-weight: 700;
+    margin-bottom: 5px;
 }
 .theme-btn{
     font-size: 20px;
     padding: 10px 15px;
     margin-bottom: 15px;
+    border-radius: 10px;
+    color: white;
+}
+#select-button{
+    color: black;
+    max-width: 225px;
+    border: 3px solid #eeb55c;
 }
 #generate-button{
     background: #629318;
@@ -38,6 +44,9 @@
     background: darkcyan;
     color: white;
     border-radius: 20px;
+}
+.start-hidden{
+    display: none;
 }
 .container{
     display: grid;
@@ -60,6 +69,12 @@
     pointer-events: none;
 }
 @media screen and (max-width: 561px) {
+    .theme{
+        max-width: 225px;
+    }
+    .timer{
+        margin-bottom: 10px;
+    }
     .container{
         grid-template-columns: repeat(4, 1fr);
         gap: 12px;
